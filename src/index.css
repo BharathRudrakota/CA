@@ -1,0 +1,192 @@
+/* src/index.css */
+
+/* Reset some default browser styles */
+*{
+  justify-content: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.account-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.account-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+  cursor: pointer;
+}
+
+.account-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.account-card:hover {
+  background-color: #f9f9f9;
+}
+
+.account-details {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.account-details img {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.account-details p {
+  margin: 10px 0;
+}
+/* Footer styles */
+.footer {
+  background-color: #282c34;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  color: #61dafb;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .footer-links {
+  margin-top: 10px;
+}
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.search-bar {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.search-bar-input {
+  width: 80%;
+  max-width: 600px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar-input:focus {
+  border-color: #61dafb;
+  outline: none;
+  box-shadow: 0 0 5px rgba(97, 218, 251, 0.5);
+}
+.error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.account-list,
+.account-details {
+  text-align: center;
+  margin: 20px;
+}
+.image-container img {
+  width: 150px; /* Set a consistent width */
+  height: 150px; /* Set a consistent height */
+  object-fit: cover; /* Ensures images fill the container without distortion */
+  border-radius: 8px; /* Optional: Adds rounded corners */
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+}
+.image-container img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+/* Center container */
+.details-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  background-color: #f9f9f9; /* Light background for better appearance */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in element's width/height */
+}
+
+/* Content styling */
+.details-content {
+  text-align: center; /* Align text in the center */
+  padding: 20px;
+  background-color: #ffffff; /* White background for the content box */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+  max-width: 400px; /* Restrict maximum width of the content box */
+  width: 100%; /* Responsive width */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image styling */
+.accountant-image {
+  width: 100%; /* Make image responsive */
+  height: auto;
+  max-width: 200px; /* Limit the image size */
+  border-radius: 50%; /* Make the image circular */
+  margin: 20px auto; /* Add spacing and center the image */
+}
+
+/* Additional text styling */
+.intro-text {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.price, .delivery-time {
+  font-size: 18px;
+  color: #333;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
