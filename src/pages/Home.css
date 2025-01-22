@@ -1,0 +1,122 @@
+/* Home.css */
+.home-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .home-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .home-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .home-header p {
+    font-size: 1.2rem;
+  }
+  
+  .features-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .feature {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .feature:hover {
+    transform: scale(1.05);
+  }
+  
+  .feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .testimonial-section {
+    margin: 40px 0;
+  }
+  
+  .testimonial-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+  
+  .testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .cta-section {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 8px;
+  }
+  
+  .cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  .home-footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  

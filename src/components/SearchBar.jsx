@@ -1,6 +1,6 @@
 import React from 'react';
 
-function SearchBar({ searchQuery, setSearchQuery }) {
+const SearchBar = ({ searchQuery, setSearchQuery }) => {
   return (
     <div className="search-bar">
       <input
@@ -12,6 +12,6 @@ function SearchBar({ searchQuery, setSearchQuery }) {
       />
     </div>
   );
-}
+};
 
 export default SearchBar;

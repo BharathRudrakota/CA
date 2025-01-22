@@ -1,0 +1,100 @@
+/* AboutUs.css */
+
+.about-us-page {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .about-us-header {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-us-header p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .mission-section,
+  .values-section,
+  .team-section,
+  .contact-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mission-section h2,
+  .values-section h2,
+  .team-section h2,
+  .contact-section h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .mission-section p,
+  .values-section p,
+  .team-section p,
+  .contact-section p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .values-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .values-section ul li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .values-section ul li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .contact-section a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .about-us-footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 40px;
+  }
+  
+  .about-us-footer p {
+    margin: 0;
+  }
+  
