@@ -10,7 +10,7 @@ const AccountantDetails = () => {
   useEffect(() => {
     const fetchAccountantDetails = async () => {
       try {
-        const response = await fetch('/db.json');
+        const response = await fetch('http://localhost:3000/db.json');
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
